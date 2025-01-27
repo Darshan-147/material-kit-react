@@ -9,6 +9,8 @@
 @import '@fontsource/barlow/700.css';
 @import '@fontsource/barlow/800.css';
 
+
+
 /** **************************************
 * Plugins
 *************************************** */
@@ -17,6 +19,11 @@
 
 /* chart */
 @import './components/chart/styles.css';
+
+/* Tailwind files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /** **************************************
 * Baseline
